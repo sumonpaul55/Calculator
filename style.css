@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator-main {
+    width: 300px;
+}
+
+input {
+    font-size: 2rem !important;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+button {
+    width: 70px;
+    text-align: center;
+}
+
+button:focus {
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    box-shadow: none !important;
+}
+
+
+/* .key {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
+} */
